@@ -26,18 +26,27 @@ form{
 
 #name{
     width: 100%;
+    margin-bottom: 20px;
 }
 #email{
     width: 100%;
+    margin-bottom: 20px;
 }
 #age{
     width: 100%;
+    margin-bottom: 20px;
 }
 
 #dropdown {
     width: 100%;
+    margin-bottom: 20px;
 }
 
+#comment{
+    
+    width: 100%;
+    
+}
 #submit  {
     margin-top: 20px;
     width: 80%;
