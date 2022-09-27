@@ -16,14 +16,25 @@
         <input id="name" type="text" placeholder="Enter your Name"><br>
         <label id="email-label"for="email">Email</label><br>
         <input id="email" type="email" required placeholder="Enter your Email"><br>
-        <label id="number-label"for="number">Age</label><br>
+        <label id="number-label"for="number">Age(Optional)</label><br>
         <input id="number" type="number" min="18" max="80" placeholder="Age"><br>
-        <select id="dropdown">
+        <label id="selectRole-label"for="selectRole">Which role defines your current role(Optional)</label><br>
+        <select name="selectRole" id="dropdown">
             <option value="Student">Student</option>
             <option value="Full time student">Full time student</option>
             <option value="full time job">full time job</option>
-        </select>
-
+        </select><br>
+        <label id="selectSuggetion-label"for="selectSuggetion">Would you sugget Microverse to your friends</label><br>
+        
+        <label><input name="Sugget_friends" value="Definitely" type="radio" class="radio_button" checked/>Definitely</label><br>
+        <label><input name="Sugget_friends" value="May Be" type="radio" class="radio_button"/>May Be</label><br>
+        <label><input name="Sugget_friends" value="Not Sure" type="radio" class="radio_button"/>Not Sure</label><br>
+        <label id="improvementSuggetion-label" for="improvementSuggetion">Would you like to see improvement</label><br>
+        <label><input name="improvementSuggetion" value="Front-end_projects" type="checkbox" class="checkbox" />Front-end projects</label><br>
+        <label><input name="improvementSuggetion" value="Back-end_Projects" type="checkbox" class="checkbox"/>Back-end Projects</label><br>
+        <label><input name="improvementSuggetion" value="Data_visualisation" type="checkbox" class="checkbox"/>Data visualisation</label><br>
+        <label><input name="improvementSuggetion" value="Open_Source_Community" type="checkbox" class="checkbox"/>Open Source community</label><br>
+        <label><input name="improvementSuggetion" value="Challenges" type="checkbox" class="checkbox"/>Challenges</label><br>
     </form>
 
     
