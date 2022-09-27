@@ -8,5 +8,17 @@ body{
 }
 h1{
     height: 10%;
-    width: 100%
+    width: 100%;
+    text-align: center;
+}
+#description{
+   
+    text-align: center;
+}
+form{
+    margin:auto;
+    border: 10px solid black;
+    height: 100%;
+    width: 70%;
+    text-align: center;
 }
